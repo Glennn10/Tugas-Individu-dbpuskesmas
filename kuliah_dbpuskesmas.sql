@@ -96,11 +96,11 @@ CREATE TABLE `pasien` (
 --
 
 INSERT INTO `pasien` (`id`, `kode`, `nama`, `tmp_lahir`, `tgl_lahir`, `gender`, `email`, `alamat`, `kelurahan_id`) VALUES
-(1, 'P001', 'Andi Saputra', 'Depok', '1995-04-12', 'L', 'andi.saputra@gmail.com', 'Jl. Merpati No. 10', 1),
-(2, 'P002', 'Siti Rahma', 'Jakarta', '1998-09-23', 'P', 'siti.rahma@yahoo.com', 'Jl. Anggrek Raya No. 5', 2),
-(3, 'P003', 'Budi Santoso', 'Bogor', '1990-01-15', 'L', 'budi.santoso@outlook.com', 'Jl. Kenanga No. 20', 3),
-(4, 'P004', 'Dewi Lestari', 'Bandung', '1992-07-08', 'P', 'dewi.lestari@gmail.com', 'Jl. Melati Putih No. 12', 4),
-(5, 'P005', 'Rizky Pratama', 'Bekasi', '1997-11-30', 'L', 'rizky.pratama@hotmail.com', 'Jl. Dahlia Indah No. 7', 5);
+(1, 'P001', 'Muhamad Ridwan', 'Ciawi', '1995-04-12', 'L', 'meowr@gmail.com', 'Jl. Veteran No. 8', 1),
+(2, 'P002', 'Edsa', 'Jakarta', '1998-09-23', 'P', 'edsa1@yahoo.com', 'Jl. Anggun Raya No. 7', 2),
+(3, 'P003', 'Herlan Zaelani', 'Bogor', '1990-01-15', 'L', 'hrln@gmail.com', 'Jl. Veteran III No. 20', 3),
+(4, 'P004', 'Sri', 'Bandung', '1992-07-08', 'P', 'srihwyuni@gmail.com', 'Jl. Sukajadi No. 2', 4),
+(5, 'P005', 'Muhamad Wildan', 'Bogor', '1997-11-30', 'L', 'lasoen10@hotmail.com', 'Jl. Ciawi No. 7', 5);
 
 -- --------------------------------------------------------
 
