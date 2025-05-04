@@ -38,11 +38,11 @@ CREATE TABLE `kelurahan` (
 --
 
 INSERT INTO `kelurahan` (`id`, `nama`, `kec_id`) VALUES
-(1, 'Beji', 1),
-(2, 'Depok Jaya', 2),
-(3, 'Cipayung', 3),
-(4, 'Cinere', 4),
-(5, 'Tapos', 5);
+(1, 'Bogor', 1),
+(2, 'Depok', 2),
+(3, 'Ciawi', 3),
+(4, 'Cisarua', 4),
+(5, 'Sukabumi', 5);
 
 -- --------------------------------------------------------
 
@@ -67,11 +67,11 @@ CREATE TABLE `paramedik` (
 --
 
 INSERT INTO `paramedik` (`id`, `nama`, `gender`, `tmp_lahir`, `tgl_lahir`, `kategori`, `telpon`, `alamat`, `unit_kerja_id`) VALUES
-(1, 'Dr. Aditya Nugraha', 'L', 'Jakarta', '1985-05-20', 'dokter', '081234567890', 'Jl. Sudirman No. 15', 1),
-(2, 'Siti Marlina', 'P', 'Depok', '1990-08-12', 'perawat', '081345678901', 'Jl. Kartini No. 8', 2),
-(3, 'Budi Rahmat', 'L', 'Bogor', '1988-03-05', 'apoteker', '081456789012', 'Jl. Ahmad Yani No. 20', 5),
-(4, 'Dewi Kusuma', 'P', 'Bandung', '1992-11-25', 'perawat', '081567890123', 'Jl. Pemuda No. 30', 2),
-(5, 'Dr. Intan Permatasari', 'P', 'Bekasi', '1987-02-15', 'dokter', '081678901234', 'Jl. Melati No. 11', 1);
+(1, 'Dr. Ahmad rifai', 'L', 'Jakarta', '1998-05-20', 'dokter', '081234567890', 'Jl. Sudirman No. 15', 1),
+(2, 'Aisyah', 'P', 'Depok', '1980-08-12', 'perawat', '081345678901', 'Jl. Kartini No. 8', 2),
+(3, 'Rahmat Nauval', 'L', 'Bogor', '1988-03-05', 'apoteker', '081456789012', 'Jl. Ahmad Yani No. 20', 5),
+(4, 'Helma Hafizah Aulia', 'P', 'Bandung', '1992-11-25', 'perawat', '081567890123', 'Jl. Pemuda No. 30', 2),
+(5, 'Dr. Putri Anggreani', 'P', 'Palembang', '1987-02-15', 'dokter', '081678901234', 'Jl. Melati No. 11', 1);
 
 -- --------------------------------------------------------
 
